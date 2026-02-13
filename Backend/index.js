@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cors());
 
 const start = async ()=>{
-    const connectDB = await mongoose.connect("mongodb+srv://harshakeerthi8500_db_user:bfd2xWzAZptGknPD@jobsphere.sndtujp.mongodb.net/?appName=JobSphere")
+    const connectDB = await mongoose.connect("")
 
     app.listen(8080,()=>{
         console.log("Server Running");
